@@ -1,9 +1,12 @@
 .my-style p {
-    color: white;
-    font-size: 180px;
-    font-weight: 900;
-  }
+  font-size: 180px;
+  font-weight: 900;
+}
 
 .my-style img {
   max-height: 100vh;
+}
+
+.title {
+  font-size: 28px;
 }
