@@ -22,80 +22,114 @@
 				</section>
         <section>
 					<p>Advantages of mongoDB</p>
-					<img src="images/advantages2.png" alt="structure example" height="450px" class="fragment">
+					<img src="images/advantages.jpg" alt="structure example" class="fragment">
 				</section>
 				<section>
-					<p>mongodb database structure</p>
-					<img src="images/structure.png" alt="structure example" height="500px" class="fragment">
+					<section>
+						<p>mongodb database structure</p>
+						<img src="images/structure.png" alt="structure example" height="500px" class="fragment">
+					</section>
 				</section>
 				<section>
-					<p>BSON</p>
-                    <p class="fragment">short for Bin­ary JSON, is a bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments</p>
-                    <p class="fragment">for more information see https://bsonspec.org/</p>
-				</section>
-                <section>
-					<p>Document</p>
-				  <pre class="fragment">
-            {
-              field1: value1,
-              field2: value2,
-              field3: value3,
-              ...
-              fieldN: valueN
-            }
-			  	</pre>
-					<pre class="fragment">
-            {
-              _id: ObjectId("5099803df3f4948bd2f98391"),
-              field2: value2,
-              field3: value3,
-              ...
-              fieldN: valueN
-            }
-					</pre>
-				</section>
-				<section>
-					<p>.insertOne()</p>
-          <pre class="fragment">
-
-            db.NewCollection.insertOne({ field: value, })
-
-          </pre>
+					<section>
+						<p>BSON</p>
+						<p class="fragment">short for Bin­ary JSON, is a bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments</p>
+						<p class="fragment">for more information see https://bsonspec.org/</p>
+					</section>
 				</section>
         <section>
-					<p>MongoDB CRUD Operations</p >
-          <div class="fragment">
-            <p class="title">Create Operations</p>
-            <pre >
-              db.collection.insertOne()
-              db.collection.insertMany() 
-            </pre>
-          </div>
-          <div class="fragment">
-            <p class="title">Read Operations</p>
-            <pre >
-              db.collection.find()
-            </pre>
-          </div>
-          <div class="fragment">
-            <p class="title">Update Operations</p>
-            <pre >
-              db.collection.updateOne()
-              db.collection.updateMany()
-              db.collection.replaceOne()
-            </pre>
-          </div>
-          <div class="fragment">
-            <p class="title">Delete Operations</p>
-            <pre >
-              db.collection.deleteOne()
-              db.collection.deleteMany()
-            </pre>
-          </div>
+					<section>
+						<p>Document</p>
+						<pre class="fragment">
+	{
+		field1: value1,
+		field2: value2,
+		field3: value3,
+		...
+		fieldN: valueN
+	}
+									</pre>
+									<pre class="fragment">
+	{
+		_id: ObjectId("5099803df3f4948bd2f98391"),
+		field2: value2,
+		field3: value3,
+		...
+		fieldN: valueN
+	}
+									</pre>
+					</section>
+				</section>
+				<section>
+					<p>Data Model</p>
+					<section>
+						<p class="title">Embedded ("denormalized") Data</p>
+						<div class="fragment embedded-data"></div>
+					</section>
+					<section>
+						<p class="title">Normalized Data</p>
+						<div class="fragment normalized-data"></div>
+					</section>
+
+				</section>
+				<section>
+					<section>
+						.insertOne()
+						<pre class="fragment">
+	
+          db.NewCollection.insertOne({ field: value, })
+	
+						</pre>
+					</section>
 				</section>
         <section>
-          <p>MERN</p>
-					<img src="images/mern.png" alt="mern stack" height="400px" class="fragment">
+					<section>
+						<p>MongoDB CRUD Operations</p >
+							<div class="fragment">
+								<p class="title">Create Operations</p>
+								<pre >
+		db.collection.insertOne()
+		db.collection.insertMany() 
+								</pre>
+							</div>
+							<div class="fragment">
+								<p class="title">Read Operations</p>
+								<pre >
+		db.collection.find()
+								</pre>
+							</div>
+							<div class="fragment">
+								<p class="title">Update Operations</p>
+								<pre >
+		db.collection.updateOne()
+		db.collection.updateMany()
+		db.collection.replaceOne()
+								</pre>
+							</div>
+							<div class="fragment">
+								<p class="title">Delete Operations</p>
+								<pre >
+		db.collection.deleteOne()
+		db.collection.deleteMany()
+								</pre>
+							</div>
+					</section>
+				</section>
+        <section>
+					<section>
+						<p>MERN</p>
+						<img src="images/mern.png" alt="mern stack" height="400px">
+					</section>
+          <section>
+						<p>MEAN</p>
+						<img src="images/mean.png" alt="mean stack" height="400px">
+					</section>
+					<section>
+						<img src="images/node.png" alt="node" height="400px">
+					</section>
+        </section>
+				<section>
+          <p>Thank you for your attention</p>
         </section>
 			</div>
 		</div>

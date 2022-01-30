@@ -10,3 +10,21 @@
 .title {
   font-size: 28px;
 }
+
+.embedded-data {
+  width: 1000px;
+  height: 500px;
+  background-image: url(../images/nested-data.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.normalized-data{
+  width: 1000px;
+  height: 500px;
+  background-image: url(../images/normalized-data.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
